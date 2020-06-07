@@ -1,0 +1,1230 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<prdf xmlns="http://www.gisplan.com.br/xmlsat" generator="G2T" generatorVersion="6.7.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gisplan.com.br/xmlsat /sge/install/x86_64/etc/../etc/schemas/prdf.xsd">
+
+  <!--
+	BEGIN CORRELATION PROCESSING DETAILS
+
+	ERROR_RANGE_E: [-1000.000000, 1000.000000]
+
+	ERROR_RANGE_N: [-1000.000000, 1000.000000]
+
+	CORRELATION_MASK_SIZE: 121x121
+
+	CORRELATION_ACCEPTANCE_THRESHOLD: 0.350000
+
+	MIN_VALID_AREA: 0.500000
+
+	KERNEL_137390: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_122336: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_122583: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_122426: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_137428: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_122533: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_122612: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_122639: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_122491: DISCARDED (CORRELATION 0.218956)
+
+	KERNEL_137569: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_137589: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_137391: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_122449: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_122516: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_122593: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_122674: DISCARDED (CORRELATION 0.318382)
+
+	KERNEL_137465: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_137442: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_122698: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_122485: USED (CORRELATION 0.602842)
+
+	KERNEL_137313: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_122728: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_122700: DISCARDED (CORRELATION 0.174387)
+
+	KERNEL_122696: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_137570: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_122883: USED (CORRELATION 0.666492)
+
+	KERNEL_122401: USED (CORRELATION 0.423170)
+
+	KERNEL_122327: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_122382: USED (CORRELATION 0.428110)
+
+	KERNEL_122424: DISCARDED (CORRELATION 0.225482)
+
+	KERNEL_122447: USED (CORRELATION 0.572213)
+
+	KERNEL_122604: DISCARDED (CORRELATION 0.347103)
+
+	KERNEL_122347: USED (CORRELATION 0.375789)
+
+	KERNEL_122400: DISCARDED (CORRELATION 0.310546)
+
+	KERNEL_122693: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_137445: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_137620: USED (CORRELATION 0.571938)
+
+	KERNEL_137481: DISCARDED (CORRELATION 0.264773)
+
+	KERNEL_122335: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_122699: USED (CORRELATION 0.509964)
+
+	KERNEL_122617: USED (CORRELATION 0.402998)
+
+	KERNEL_122799: DISCARDED (CORRELATION 0.330160)
+
+	KERNEL_122412: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_122811: USED (CORRELATION 0.394701)
+
+	KERNEL_122552: USED (CORRELATION 0.550939)
+
+	KERNEL_137603: USED (CORRELATION 0.509624)
+
+	KERNEL_122740: DISCARDED (CORRELATION 0.203226)
+
+	KERNEL_122645: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_137617: USED (CORRELATION 0.407796)
+
+	KERNEL_137547: USED (CORRELATION 0.611753)
+
+	KERNEL_137622: DISCARDED (CORRELATION 0.311273)
+
+	KERNEL_137517: USED (CORRELATION 0.710964)
+
+	KERNEL_137437: USED (CORRELATION 0.818698)
+
+	KERNEL_122705: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_137466: USED (CORRELATION 0.875946)
+
+	KERNEL_122886: USED (CORRELATION 0.596537)
+
+	KERNEL_122668: DISCARDED (CORRELATION 0.269746)
+
+	KERNEL_122549: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_122676: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_122648: USED (CORRELATION 0.371338)
+
+	KERNEL_137444: USED (CORRELATION 0.472261)
+
+	KERNEL_122661: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_137566: USED (CORRELATION 0.689579)
+
+	KERNEL_122758: DISCARDED (CORRELATION 0.235359)
+
+	KERNEL_122673: USED (CORRELATION 0.371130)
+
+	KERNEL_122706: USED (CORRELATION 0.426135)
+
+	KERNEL_122714: USED (CORRELATION 0.756978)
+
+	KERNEL_122575: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_137482: USED (CORRELATION 0.601380)
+
+	KERNEL_122681: DISCARDED (CORRELATION 0.217797)
+
+	KERNEL_137575: USED (CORRELATION 0.727475)
+
+	KERNEL_122796: DISCARDED (CORRELATION 0.238626)
+
+	KERNEL_122888: DISCARDED (CORRELATION 0.293242)
+
+	KERNEL_137580: USED (CORRELATION 0.557808)
+
+	KERNEL_122707: USED (CORRELATION 0.463367)
+
+	KERNEL_137518: USED (CORRELATION 0.412038)
+
+	KERNEL_122528: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_137573: USED (CORRELATION 0.821065)
+
+	KERNEL_122760: USED (CORRELATION 0.452920)
+
+	KERNEL_122581: USED (CORRELATION 0.387697)
+
+	KERNEL_137430: USED (CORRELATION 0.510460)
+
+	KERNEL_122384: USED (CORRELATION 0.355702)
+
+	KERNEL_137421: USED (CORRELATION 0.442349)
+
+	KERNEL_122460: USED (CORRELATION 0.604479)
+
+	KERNEL_137557: USED (CORRELATION 0.751596)
+
+	KERNEL_122496: DISCARDED (CORRELATION 0.266501)
+
+	KERNEL_137586: USED (CORRELATION 0.487737)
+
+	KERNEL_122643: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_122754: USED (CORRELATION 0.373107)
+
+	KERNEL_122724: DISCARDED (CORRELATION 0.330885)
+
+	KERNEL_137508: USED (CORRELATION 0.384416)
+
+	KERNEL_122899: DISCARDED (CORRELATION 0.202528)
+
+	KERNEL_122897: DISCARDED (CORRELATION 0.297831)
+
+	KERNEL_137278: USED (CORRELATION 0.982844)
+
+	KERNEL_137556: USED (CORRELATION 0.887627)
+
+	KERNEL_122867: USED (CORRELATION 0.548094)
+
+	KERNEL_122749: DISCARDED (CORRELATION 0.181397)
+
+	KERNEL_122911: DISCARDED (CORRELATION 0.313351)
+
+	KERNEL_122812: DISCARDED (CORRELATION 0.294448)
+
+	KERNEL_137274: USED (CORRELATION 0.794562)
+
+	KERNEL_137358: USED (CORRELATION 0.886578)
+
+	KERNEL_122859: USED (CORRELATION 0.355374)
+
+	KERNEL_122861: USED (CORRELATION 0.453606)
+
+	KERNEL_137288: USED (CORRELATION 0.887174)
+
+	KERNEL_137211: USED (CORRELATION 0.849133)
+
+	KERNEL_122795: DISCARDED (CORRELATION 0.244407)
+
+	KERNEL_122372: USED (CORRELATION 0.405531)
+
+	KERNEL_137284: DISCARDED (CORRELATION 0.341506)
+
+	KERNEL_137625: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_137279: USED (CORRELATION 0.833873)
+
+	KERNEL_122814: USED (CORRELATION 0.482431)
+
+	KERNEL_137285: USED (CORRELATION 0.918313)
+
+	KERNEL_137280: USED (CORRELATION 0.669053)
+
+	KERNEL_137033: USED (CORRELATION 0.977182)
+
+	KERNEL_137123: USED (CORRELATION 0.909750)
+
+	KERNEL_137286: USED (CORRELATION 0.552837)
+
+	KERNEL_137215: USED (CORRELATION 0.481259)
+
+	KERNEL_122857: USED (CORRELATION 0.479630)
+
+	KERNEL_122712: USED (CORRELATION 0.373465)
+
+	KERNEL_137282: USED (CORRELATION 0.414666)
+
+	KERNEL_136959: USED (CORRELATION 0.392199)
+
+	KERNEL_137275: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_136997: USED (CORRELATION 0.915702)
+
+	KERNEL_137079: USED (CORRELATION 0.772902)
+
+	KERNEL_122869: USED (CORRELATION 0.486040)
+
+	KERNEL_122816: USED (CORRELATION 0.718088)
+
+	KERNEL_137140: USED (CORRELATION 0.476761)
+
+	KERNEL_137283: USED (CORRELATION 0.594770)
+
+	KERNEL_122653: DISCARDED (CORRELATION 0.330425)
+
+	KERNEL_122872: USED (CORRELATION 0.502692)
+
+	KERNEL_137287: USED (CORRELATION 0.542398)
+
+	KERNEL_137180: USED (CORRELATION 0.641668)
+
+	KERNEL_137193: DISCARDED (CORRELATION 0.312166)
+
+	KERNEL_121991: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_122744: USED (CORRELATION 0.427406)
+
+	KERNEL_121997: USED (CORRELATION 0.706201)
+
+	KERNEL_122817: USED (CORRELATION 0.359058)
+
+	KERNEL_122794: DISCARDED (CORRELATION 0.312628)
+
+	KERNEL_122865: DISCARDED (CORRELATION 0.329508)
+
+	KERNEL_122572: DISCARDED (CORRELATION 0.281736)
+
+	KERNEL_136946: USED (CORRELATION 0.709555)
+
+	KERNEL_122813: DISCARDED (CORRELATION 0.336857)
+
+	KERNEL_122792: USED (CORRELATION 0.669122)
+
+	KERNEL_137042: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_122815: USED (CORRELATION 0.379879)
+
+	KERNEL_122790: DISCARDED (CORRELATION 0.229464)
+
+	KERNEL_137139: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_122810: USED (CORRELATION 0.445951)
+
+	KERNEL_136944: USED (CORRELATION 0.365562)
+
+	KERNEL_122862: USED (CORRELATION 0.356470)
+
+	KERNEL_121981: USED (CORRELATION 0.527130)
+
+	KERNEL_122441: USED (CORRELATION 0.404476)
+
+	KERNEL_121980: USED (CORRELATION 0.381648)
+
+	KERNEL_121942: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_137238: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_121966: USED (CORRELATION 0.484017)
+
+	KERNEL_121885: USED (CORRELATION 0.530709)
+
+	KERNEL_137024: USED (CORRELATION 0.506509)
+
+	KERNEL_122033: DISCARDED (CORRELATION 0.314040)
+
+	KERNEL_137229: USED (CORRELATION 0.442950)
+
+	KERNEL_121677: USED (CORRELATION 0.353307)
+
+	KERNEL_137241: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_121655: USED (CORRELATION 0.654915)
+
+	KERNEL_121845: DISCARDED (CORRELATION 0.189510)
+
+	KERNEL_137057: USED (CORRELATION 0.665218)
+
+	KERNEL_121776: USED (CORRELATION 0.486900)
+
+	KERNEL_121983: DISCARDED (CORRELATION 0.336802)
+
+	KERNEL_137158: USED (CORRELATION 0.422335)
+
+	KERNEL_122009: USED (CORRELATION 0.443971)
+
+	KERNEL_121763: USED (CORRELATION 0.444177)
+
+	KERNEL_121691: USED (CORRELATION 0.491403)
+
+	KERNEL_121779: DISCARDED (CORRELATION 0.299993)
+
+	KERNEL_121739: USED (CORRELATION 0.492925)
+
+	KERNEL_136982: USED (CORRELATION 0.482444)
+
+	KERNEL_121895: DISCARDED (CORRELATION 0.349624)
+
+	KERNEL_121793: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_121939: USED (CORRELATION 0.436108)
+
+	KERNEL_121974: DISCARDED (CORRELATION 0.293688)
+
+	KERNEL_137181: USED (CORRELATION 0.378697)
+
+	KERNEL_137006: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_137098: DISCARDED (CORRELATION 0.261182)
+
+	KERNEL_137226: DISCARDED (CORRELATION 0.235096)
+
+	KERNEL_137086: DISCARDED (CORRELATION 0.332234)
+
+	KERNEL_121818: USED (CORRELATION 0.651338)
+
+	KERNEL_121784: DISCARDED (CORRELATION 0.301741)
+
+	KERNEL_137148: USED (CORRELATION 0.782420)
+
+	KERNEL_137182: DISCARDED (CORRELATION 0.343672)
+
+	KERNEL_121882: USED (CORRELATION 0.548515)
+
+	KERNEL_137083: USED (CORRELATION 0.708978)
+
+	KERNEL_121938: DISCARDED (CORRELATION 0.266788)
+
+	KERNEL_137016: USED (CORRELATION 0.690236)
+
+	KERNEL_122008: DISCARDED (CORRELATION 0.285000)
+
+	KERNEL_137133: USED (CORRELATION 0.878756)
+
+	KERNEL_121822: DISCARDED (CORRELATION 0.343103)
+
+	KERNEL_137099: USED (CORRELATION 0.709674)
+
+	KERNEL_137231: USED (CORRELATION 0.682189)
+
+	KERNEL_121764: DISCARDED (CORRELATION 0.318008)
+
+	KERNEL_121592: DISCARDED (CORRELATION 0.314369)
+
+	KERNEL_137227: USED (CORRELATION 0.473630)
+
+	KERNEL_122028: USED (CORRELATION 0.450197)
+
+	KERNEL_121798: USED (CORRELATION 0.365257)
+
+	KERNEL_121720: DISCARDED (CORRELATION 0.320505)
+
+	KERNEL_121829: DISCARDED (CORRELATION 0.312808)
+
+	KERNEL_121576: USED (CORRELATION 0.550735)
+
+	KERNEL_137150: USED (CORRELATION 0.618567)
+
+	KERNEL_122027: DISCARDED (CORRELATION 0.260366)
+
+	KERNEL_121774: USED (CORRELATION 0.710423)
+
+	KERNEL_137069: DISCARDED (CORRELATION 0.273492)
+
+	KERNEL_121667: DISCARDED (CORRELATION 0.281458)
+
+	KERNEL_121797: USED (CORRELATION 0.388218)
+
+	KERNEL_137031: USED (CORRELATION 0.487317)
+
+	KERNEL_136950: USED (CORRELATION 0.489358)
+
+	KERNEL_137214: USED (CORRELATION 0.609152)
+
+	KERNEL_122019: DISCARDED (CORRELATION 0.277208)
+
+	KERNEL_121615: USED (CORRELATION 0.816063)
+
+	KERNEL_137169: USED (CORRELATION 0.646524)
+
+	KERNEL_121901: DISCARDED (CORRELATION 0.262608)
+
+	KERNEL_137011: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_137201: DISCARDED (CORRELATION 0.276914)
+
+	KERNEL_137223: USED (CORRELATION 0.465378)
+
+	KERNEL_136947: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_122029: USED (CORRELATION 0.385514)
+
+	KERNEL_121577: USED (CORRELATION 0.429298)
+
+	KERNEL_136965: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_137217: USED (CORRELATION 0.477038)
+
+	KERNEL_136964: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_121919: USED (CORRELATION 0.528822)
+
+	KERNEL_121628: USED (CORRELATION 0.373457)
+
+	KERNEL_137135: USED (CORRELATION 0.522344)
+
+	KERNEL_137186: USED (CORRELATION 0.832683)
+
+	KERNEL_122024: USED (CORRELATION 0.367888)
+
+	KERNEL_137096: USED (CORRELATION 0.806437)
+
+	KERNEL_137122: USED (CORRELATION 0.781661)
+
+	KERNEL_137128: USED (CORRELATION 0.689663)
+
+	KERNEL_121832: USED (CORRELATION 0.391467)
+
+	KERNEL_137256: USED (CORRELATION 0.685883)
+
+	KERNEL_137213: USED (CORRELATION 0.777798)
+
+	KERNEL_137137: USED (CORRELATION 0.533266)
+
+	KERNEL_137130: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_121810: DISCARDED (CORRELATION 0.272801)
+
+	KERNEL_137202: USED (CORRELATION 0.576517)
+
+	KERNEL_137204: USED (CORRELATION 0.582007)
+
+	KERNEL_137184: USED (CORRELATION 0.797899)
+
+	KERNEL_121883: USED (CORRELATION 0.449435)
+
+	KERNEL_137104: USED (CORRELATION 0.751616)
+
+	KERNEL_136969: USED (CORRELATION 0.776187)
+
+	KERNEL_137207: USED (CORRELATION 0.786596)
+
+	KERNEL_137022: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_137228: USED (CORRELATION 0.714091)
+
+	KERNEL_121858: USED (CORRELATION 0.352165)
+
+	KERNEL_137216: USED (CORRELATION 0.490304)
+
+	KERNEL_137253: USED (CORRELATION 0.732551)
+
+	KERNEL_137132: USED (CORRELATION 0.749795)
+
+	KERNEL_137058: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_137162: USED (CORRELATION 0.530163)
+
+	KERNEL_137221: USED (CORRELATION 0.894365)
+
+	KERNEL_137009: USED (CORRELATION 0.675105)
+
+	KERNEL_121863: USED (CORRELATION 0.667334)
+
+	KERNEL_121828: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_121894: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_137149: USED (CORRELATION 0.422532)
+
+	KERNEL_137045: USED (CORRELATION 0.659322)
+
+	KERNEL_121649: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_121652: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_121759: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_137110: USED (CORRELATION 0.602986)
+
+	KERNEL_137084: USED (CORRELATION 0.626089)
+
+	KERNEL_122018: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_121761: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_137121: USED (CORRELATION 0.714202)
+
+	KERNEL_137013: USED (CORRELATION 0.609081)
+
+	KERNEL_122021: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_137233: USED (CORRELATION 0.800051)
+
+	KERNEL_137235: USED (CORRELATION 0.863763)
+
+	KERNEL_121600: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_121594: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_137205: USED (CORRELATION 0.827687)
+
+	KERNEL_121922: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_121881: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_121777: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_121716: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_137263: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_121821: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_136996: DISCARDED (CORRELATION 0.000000)
+
+	END CORRELATION PROCESSING DETAILS
+-->
+
+  <satellite>
+    <name>CBERS</name>
+    <number>4</number>
+    <instrument channel="1">MUX</instrument>
+  </satellite>
+
+  <software>G2T</software>
+
+  <version>6.7.1</version>
+
+  <revolutionNumber>0</revolutionNumber>
+
+  <imageMode>VIEW</imageMode>
+
+  <availableBands>
+    <band gain="2">5</band>
+    <band gain="2">6</band>
+    <band gain="2">7</band>
+    <band gain="2">8</band>
+  </availableBands>
+
+  <orientationAngle>
+    <degree>8</degree>
+    <minute>30</minute>
+    <second>15</second>
+    <millisecond>645</millisecond>
+  </orientationAngle>
+
+  <sunIncidenceAngle>
+    <degree>46</degree>
+    <minute>22</minute>
+    <second>51</second>
+    <millisecond>519</millisecond>
+  </sunIncidenceAngle>
+
+  <viewing>
+    <begin>2020-06-05T13:49:09.539</begin>
+    <center>2020-06-05T13:49:18.477</center>
+    <end>2020-06-05T13:49:27.416</end>
+  </viewing>
+
+  <reception>
+    <begin>2020-06-05T13:49:09.542</begin>
+    <center>2020-06-05T13:49:18.480</center>
+    <end>2020-06-05T13:49:27.418</end>
+  </reception>
+
+  <image>
+    <receivingStation>CBA</receivingStation>
+    <processingStation>"Cachoeira Paulista"</processingStation>
+    <processingTime>2020-06-05T15:58:47.160603</processingTime>
+    <level>4</level>
+    <columns>7393</columns>
+    <lines>7042</lines>
+    <verticalPixelSize>20.000000</verticalPixelSize>
+    <horizontalPixelSize>20.000000</horizontalPixelSize>
+    <orbitDirection>Descending</orbitDirection>
+    <timeStamp>
+      <begin>2020-06-05T13:49:09.563462</begin>
+      <center>2020-06-05T13:49:18.475588</center>
+      <end>2020-06-05T13:49:27.392251</end>
+    </timeStamp>
+    <path>165</path>
+    <row>117</row>
+    <shiftFromNominal>0</shiftFromNominal>
+    <shiftFromNominalInSeconds>0</shiftFromNominalInSeconds>
+    <shiftFromNominalInPercent>0</shiftFromNominalInPercent>
+    <sunPosition>
+      <elevation>44.2493</elevation>
+      <sunAzimuth>35.0522</sunAzimuth>
+    </sunPosition>
+    <boresightMatrix>
+      <value col="0" row="0">0.999992</value>
+      <value col="1" row="0">-0.003262</value>
+      <value col="2" row="0">-0.002225</value>
+      <value col="0" row="1">0.003280</value>
+      <value col="1" row="1">0.999960</value>
+      <value col="2" row="1">0.008357</value>
+      <value col="0" row="2">0.002198</value>
+      <value col="1" row="2">-0.008364</value>
+      <value col="2" row="2">0.999963</value>
+    </boresightMatrix>
+    <ephemerisMode>AUTO</ephemerisMode>
+    <boundingBox>
+      <UL>
+        <line>8.000000</line>
+        <column>0.000000</column>
+        <latitude>-14.578029</latitude>
+        <longitude>-55.539251</longitude>
+        <northing>8387840</northing>
+        <easting>657360</easting>
+      </UL>
+      <UR>
+        <line>8.000000</line>
+        <column>6034.000000</column>
+        <latitude>-14.565431</latitude>
+        <longitude>-54.167591</longitude>
+        <northing>8387840</northing>
+        <easting>805221</easting>
+      </UR>
+      <LR>
+        <line>6008.000000</line>
+        <column>6034.000000</column>
+        <latitude>-15.837200</latitude>
+        <longitude>-54.150549</longitude>
+        <northing>8247000</northing>
+        <easting>805221</easting>
+      </LR>
+      <LL>
+        <line>6008.000000</line>
+        <column>0.000000</column>
+        <latitude>-15.850953</latitude>
+        <longitude>-55.530452</longitude>
+        <northing>8247000</northing>
+        <easting>657360</easting>
+      </LL>
+      <CT>
+        <line>3008.000000</line>
+        <column>3017.000000</column>
+        <latitude>-15.208973</latitude>
+        <longitude>-54.846946</longitude>
+        <northing>8317420</northing>
+        <easting>731290</easting>
+      </CT>
+    </boundingBox>
+    <imageData>
+      <UL>
+        <line>8.000000</line>
+        <column>0.000000</column>
+        <latitude>-14.607695</latitude>
+        <longitude>-55.282303</longitude>
+        <northing>8384364</northing>
+        <easting>685022</easting>
+      </UL>
+      <UR>
+        <line>8.000000</line>
+        <column>6034.000000</column>
+        <latitude>-14.779576</latitude>
+        <longitude>-54.169399</longitude>
+        <northing>8364132</northing>
+        <easting>804729</easting>
+      </UR>
+      <LR>
+        <line>6008.000000</line>
+        <column>6034.000000</column>
+        <latitude>-15.841467</latitude>
+        <longitude>-54.412009</longitude>
+        <northing>8246891</northing>
+        <easting>777191</easting>
+      </LR>
+      <LL>
+        <line>6008.000000</line>
+        <column>0.000000</column>
+        <latitude>-15.668662</latitude>
+        <longitude>-55.530832</longitude>
+        <northing>8267169</northing>
+        <easting>657460</easting>
+      </LL>
+      <CT>
+        <line>3008.000000</line>
+        <column>3017.000000</column>
+        <latitude>-15.138179</latitude>
+        <longitude>-54.725851</longitude>
+        <northing>8325124</northing>
+        <easting>744386</easting>
+      </CT>
+    </imageData>
+    <attitudes>
+      <attitude description="PACDB_AOCC">
+        <time>2020-06-05T13:49:07</time>
+        <roll>-0.00921144</roll>
+        <pitch>-0.0285855</pitch>
+        <yaw>-0.0319229</yaw>
+        <deltaRoll>1.51028e-06</deltaRoll>
+        <deltaPitch>5.10925e-06</deltaPitch>
+        <deltaYaw>-1.42352e-05</deltaYaw>
+      </attitude>
+      <attitude description="PACDB_AOCC">
+        <time>2020-06-05T13:49:08</time>
+        <roll>-0.00921144</roll>
+        <pitch>-0.0285855</pitch>
+        <yaw>-0.0319229</yaw>
+        <deltaRoll>1.51028e-06</deltaRoll>
+        <deltaPitch>5.10925e-06</deltaPitch>
+        <deltaYaw>-1.42352e-05</deltaYaw>
+      </attitude>
+      <attitude description="PACDB_AOCC">
+        <time>2020-06-05T13:49:09</time>
+        <roll>-0.00921144</roll>
+        <pitch>-0.0285855</pitch>
+        <yaw>-0.0319229</yaw>
+        <deltaRoll>1.51028e-06</deltaRoll>
+        <deltaPitch>5.10925e-06</deltaPitch>
+        <deltaYaw>-1.42352e-05</deltaYaw>
+      </attitude>
+      <attitude description="PACDB_AOCC">
+        <time>2020-06-05T13:49:10</time>
+        <roll>-0.00921144</roll>
+        <pitch>-0.0285855</pitch>
+        <yaw>-0.0319229</yaw>
+        <deltaRoll>1.51028e-06</deltaRoll>
+        <deltaPitch>5.10925e-06</deltaPitch>
+        <deltaYaw>-1.42352e-05</deltaYaw>
+      </attitude>
+      <attitude description="PACDB_AOCC">
+        <time>2020-06-05T13:49:11</time>
+        <roll>-0.00921144</roll>
+        <pitch>-0.0285855</pitch>
+        <yaw>-0.0319229</yaw>
+        <deltaRoll>1.51028e-06</deltaRoll>
+        <deltaPitch>5.10925e-06</deltaPitch>
+        <deltaYaw>-1.42352e-05</deltaYaw>
+      </attitude>
+      <attitude description="PACDB_AOCC">
+        <time>2020-06-05T13:49:12</time>
+        <roll>-0.00921144</roll>
+        <pitch>-0.0285855</pitch>
+        <yaw>-0.0319229</yaw>
+        <deltaRoll>1.51028e-06</deltaRoll>
+        <deltaPitch>5.10925e-06</deltaPitch>
+        <deltaYaw>-1.42352e-05</deltaYaw>
+      </attitude>
+      <attitude description="PACDB_AOCC">
+        <time>2020-06-05T13:49:13</time>
+        <roll>-0.00921144</roll>
+        <pitch>-0.0285855</pitch>
+        <yaw>-0.0319229</yaw>
+        <deltaRoll>1.51028e-06</deltaRoll>
+        <deltaPitch>5.10925e-06</deltaPitch>
+        <deltaYaw>-1.42352e-05</deltaYaw>
+      </attitude>
+      <attitude description="PACDB_AOCC">
+        <time>2020-06-05T13:49:14</time>
+        <roll>-0.00921144</roll>
+        <pitch>-0.0285855</pitch>
+        <yaw>-0.0319229</yaw>
+        <deltaRoll>1.51028e-06</deltaRoll>
+        <deltaPitch>5.10925e-06</deltaPitch>
+        <deltaYaw>-1.42352e-05</deltaYaw>
+      </attitude>
+      <attitude description="PACDB_AOCC">
+        <time>2020-06-05T13:49:15</time>
+        <roll>-0.00921144</roll>
+        <pitch>-0.0285855</pitch>
+        <yaw>-0.0319229</yaw>
+        <deltaRoll>1.51028e-06</deltaRoll>
+        <deltaPitch>5.10925e-06</deltaPitch>
+        <deltaYaw>-1.42352e-05</deltaYaw>
+      </attitude>
+      <attitude description="PACDB_AOCC">
+        <time>2020-06-05T13:49:16</time>
+        <roll>-0.00921144</roll>
+        <pitch>-0.0285855</pitch>
+        <yaw>-0.0319229</yaw>
+        <deltaRoll>1.51028e-06</deltaRoll>
+        <deltaPitch>5.10925e-06</deltaPitch>
+        <deltaYaw>-1.42352e-05</deltaYaw>
+      </attitude>
+      <attitude description="PACDB_AOCC">
+        <time>2020-06-05T13:49:17</time>
+        <roll>-0.00921144</roll>
+        <pitch>-0.0285855</pitch>
+        <yaw>-0.0319229</yaw>
+        <deltaRoll>1.51028e-06</deltaRoll>
+        <deltaPitch>5.10925e-06</deltaPitch>
+        <deltaYaw>-1.42352e-05</deltaYaw>
+      </attitude>
+      <attitude description="PACDB_AOCC">
+        <time>2020-06-05T13:49:18</time>
+        <roll>-0.00921144</roll>
+        <pitch>-0.0285855</pitch>
+        <yaw>-0.0319229</yaw>
+        <deltaRoll>1.51028e-06</deltaRoll>
+        <deltaPitch>5.10925e-06</deltaPitch>
+        <deltaYaw>-1.42352e-05</deltaYaw>
+      </attitude>
+      <attitude description="PACDB_AOCC">
+        <time>2020-06-05T13:49:19</time>
+        <roll>-0.00921144</roll>
+        <pitch>-0.0285855</pitch>
+        <yaw>-0.0319229</yaw>
+        <deltaRoll>1.51028e-06</deltaRoll>
+        <deltaPitch>5.10925e-06</deltaPitch>
+        <deltaYaw>-1.42352e-05</deltaYaw>
+      </attitude>
+      <attitude description="PACDB_AOCC">
+        <time>2020-06-05T13:49:20</time>
+        <roll>-0.00921144</roll>
+        <pitch>-0.0285855</pitch>
+        <yaw>-0.0319229</yaw>
+        <deltaRoll>1.51028e-06</deltaRoll>
+        <deltaPitch>5.10925e-06</deltaPitch>
+        <deltaYaw>-1.42352e-05</deltaYaw>
+      </attitude>
+      <attitude description="PACDB_AOCC">
+        <time>2020-06-05T13:49:21</time>
+        <roll>-0.00921144</roll>
+        <pitch>-0.0285855</pitch>
+        <yaw>-0.0319229</yaw>
+        <deltaRoll>1.51028e-06</deltaRoll>
+        <deltaPitch>5.10925e-06</deltaPitch>
+        <deltaYaw>-1.42352e-05</deltaYaw>
+      </attitude>
+      <attitude description="PACDB_AOCC">
+        <time>2020-06-05T13:49:22</time>
+        <roll>-0.00921144</roll>
+        <pitch>-0.0285855</pitch>
+        <yaw>-0.0319229</yaw>
+        <deltaRoll>1.51028e-06</deltaRoll>
+        <deltaPitch>5.10925e-06</deltaPitch>
+        <deltaYaw>-1.42352e-05</deltaYaw>
+      </attitude>
+      <attitude description="PACDB_AOCC">
+        <time>2020-06-05T13:49:23</time>
+        <roll>-0.00921144</roll>
+        <pitch>-0.0285855</pitch>
+        <yaw>-0.0319229</yaw>
+        <deltaRoll>1.51028e-06</deltaRoll>
+        <deltaPitch>5.10925e-06</deltaPitch>
+        <deltaYaw>-1.42352e-05</deltaYaw>
+      </attitude>
+      <attitude description="PACDB_AOCC">
+        <time>2020-06-05T13:49:24</time>
+        <roll>-0.00921144</roll>
+        <pitch>-0.0285855</pitch>
+        <yaw>-0.0319229</yaw>
+        <deltaRoll>1.51028e-06</deltaRoll>
+        <deltaPitch>5.10925e-06</deltaPitch>
+        <deltaYaw>-1.42352e-05</deltaYaw>
+      </attitude>
+      <attitude description="PACDB_AOCC">
+        <time>2020-06-05T13:49:25</time>
+        <roll>-0.00921144</roll>
+        <pitch>-0.0285855</pitch>
+        <yaw>-0.0319229</yaw>
+        <deltaRoll>1.51028e-06</deltaRoll>
+        <deltaPitch>5.10925e-06</deltaPitch>
+        <deltaYaw>-1.42352e-05</deltaYaw>
+      </attitude>
+      <attitude description="PACDB_AOCC">
+        <time>2020-06-05T13:49:26</time>
+        <roll>-0.00921144</roll>
+        <pitch>-0.0285855</pitch>
+        <yaw>-0.0319229</yaw>
+        <deltaRoll>1.51028e-06</deltaRoll>
+        <deltaPitch>5.10925e-06</deltaPitch>
+        <deltaYaw>-1.42352e-05</deltaYaw>
+      </attitude>
+      <attitude description="PACDB_AOCC">
+        <time>2020-06-05T13:49:27</time>
+        <roll>-0.00921144</roll>
+        <pitch>-0.0285855</pitch>
+        <yaw>-0.0319229</yaw>
+        <deltaRoll>1.51028e-06</deltaRoll>
+        <deltaPitch>5.10925e-06</deltaPitch>
+        <deltaYaw>-1.42352e-05</deltaYaw>
+      </attitude>
+      <attitude description="PACDB_AOCC">
+        <time>2020-06-05T13:49:28</time>
+        <roll>-0.00921144</roll>
+        <pitch>-0.0285855</pitch>
+        <yaw>-0.0319229</yaw>
+        <deltaRoll>1.51028e-06</deltaRoll>
+        <deltaPitch>5.10925e-06</deltaPitch>
+        <deltaYaw>-1.42352e-05</deltaYaw>
+      </attitude>
+      <attitude description="PACDB_AOCC">
+        <time>2020-06-05T13:49:29</time>
+        <roll>-0.00921144</roll>
+        <pitch>-0.0285855</pitch>
+        <yaw>-0.0319229</yaw>
+        <deltaRoll>1.51028e-06</deltaRoll>
+        <deltaPitch>5.10925e-06</deltaPitch>
+        <deltaYaw>-1.42352e-05</deltaYaw>
+      </attitude>
+      <attitude description="PACDB_AOCC">
+        <time>2020-06-05T13:49:30</time>
+        <roll>-0.00921144</roll>
+        <pitch>-0.0285855</pitch>
+        <yaw>-0.0319229</yaw>
+        <deltaRoll>1.51028e-06</deltaRoll>
+        <deltaPitch>5.10925e-06</deltaPitch>
+        <deltaYaw>-1.42352e-05</deltaYaw>
+      </attitude>
+    </attitudes>
+    <ephemerides>
+      <ephemeris description="PACDB_GPS">
+        <time>2020-06-05T13:49:07</time>
+        <x>4011113.350897</x>
+        <y>-5650589.073190</y>
+        <z>-1787364.824467</z>
+        <vx>-2409.358596</vx>
+        <vy>539.850961</vy>
+        <vz>-7142.914598</vz>
+      </ephemeris>
+      <ephemeris description="PACDB_GPS">
+        <time>2020-06-05T13:49:08</time>
+        <x>4008701.856220</x>
+        <y>-5650046.056686</y>
+        <z>-1794506.752819</z>
+        <vx>-2413.622017</vx>
+        <vy>546.324053</vy>
+        <vz>-7140.958589</vz>
+      </ephemeris>
+      <ephemeris description="PACDB_GPS">
+        <time>2020-06-05T13:49:09</time>
+        <x>4006286.102702</x>
+        <y>-5649496.617574</y>
+        <z>-1801646.788939</z>
+        <vx>-2417.879704</vx>
+        <vy>552.792078</vy>
+        <vz>-7138.995764</vz>
+      </ephemeris>
+      <ephemeris description="PACDB_GPS">
+        <time>2020-06-05T13:49:10</time>
+        <x>4003866.135254</x>
+        <y>-5648940.654490</y>
+        <z>-1808784.817007</z>
+        <vx>-2422.136466</vx>
+        <vy>559.263163</vy>
+        <vz>-7137.025385</vz>
+      </ephemeris>
+      <ephemeris description="PACDB_GPS">
+        <time>2020-06-05T13:49:11</time>
+        <x>4001441.935116</x>
+        <y>-5648378.186192</y>
+        <z>-1815920.855380</z>
+        <vx>-2426.390890</vx>
+        <vy>565.735431</vy>
+        <vz>-7135.047448</vz>
+      </ephemeris>
+      <ephemeris description="PACDB_GPS">
+        <time>2020-06-05T13:49:12</time>
+        <x>3999013.491851</x>
+        <y>-5647809.215917</y>
+        <z>-1823054.905194</z>
+        <vx>-2430.642369</vx>
+        <vy>572.208285</vy>
+        <vz>-7133.061864</vz>
+      </ephemeris>
+      <ephemeris description="PACDB_GPS">
+        <time>2020-06-05T13:49:13</time>
+        <x>3996580.797601</x>
+        <y>-5647233.742097</y>
+        <z>-1830186.962254</z>
+        <vx>-2434.890547</vx>
+        <vy>578.681526</vy>
+        <vz>-7131.068512</vz>
+      </ephemeris>
+      <ephemeris description="PACDB_GPS">
+        <time>2020-06-05T13:49:14</time>
+        <x>3994143.836954</x>
+        <y>-5646651.732600</y>
+        <z>-1837317.027754</z>
+        <vx>-2439.134917</vx>
+        <vy>585.155277</vy>
+        <vz>-7129.066533</vz>
+      </ephemeris>
+      <ephemeris description="PACDB_GPS">
+        <time>2020-06-05T13:49:15</time>
+        <x>3991702.614765</x>
+        <y>-5646063.237305</y>
+        <z>-1844445.088430</z>
+        <vx>-2443.375372</vx>
+        <vy>591.628799</vy>
+        <vz>-7127.057056</vz>
+      </ephemeris>
+      <ephemeris description="PACDB_GPS">
+        <time>2020-06-05T13:49:16</time>
+        <x>3989257.128899</x>
+        <y>-5645468.277802</y>
+        <z>-1851571.136005</z>
+        <vx>-2447.611669</vx>
+        <vy>598.101652</vy>
+        <vz>-7125.040523</vz>
+      </ephemeris>
+      <ephemeris description="PACDB_GPS">
+        <time>2020-06-05T13:49:17</time>
+        <x>3986807.337042</x>
+        <y>-5644866.870892</y>
+        <z>-1858695.195094</z>
+        <vx>-2451.842630</vx>
+        <vy>604.572338</vy>
+        <vz>-7123.019505</vz>
+      </ephemeris>
+      <ephemeris description="PACDB_GPS">
+        <time>2020-06-05T13:49:18</time>
+        <x>3984353.300109</x>
+        <y>-5644259.036681</y>
+        <z>-1865817.205564</z>
+        <vx>-2456.069481</vx>
+        <vy>611.042230</vy>
+        <vz>-7120.990758</vz>
+      </ephemeris>
+      <ephemeris description="PACDB_GPS">
+        <time>2020-06-05T13:49:19</time>
+        <x>3981895.051034</x>
+        <y>-5643644.794382</y>
+        <z>-1872937.130259</z>
+        <vx>-2460.292798</vx>
+        <vy>617.511920</vy>
+        <vz>-7118.952616</vz>
+      </ephemeris>
+      <ephemeris description="PACDB_GPS">
+        <time>2020-06-05T13:49:20</time>
+        <x>3979432.618258</x>
+        <y>-5643024.167616</y>
+        <z>-1880054.929301</z>
+        <vx>-2464.513082</vx>
+        <vy>623.981822</vy>
+        <vz>-7116.903484</vz>
+      </ephemeris>
+      <ephemeris description="PACDB_GPS">
+        <time>2020-06-05T13:49:21</time>
+        <x>3976966.061891</x>
+        <y>-5642397.014146</y>
+        <z>-1887170.803142</z>
+        <vx>-2468.730055</vx>
+        <vy>630.455501</vy>
+        <vz>-7114.847588</vz>
+      </ephemeris>
+      <ephemeris description="PACDB_GPS">
+        <time>2020-06-05T13:49:22</time>
+        <x>3974495.349591</x>
+        <y>-5641763.333270</y>
+        <z>-1894284.706790</z>
+        <vx>-2472.943695</vx>
+        <vy>636.931383</vy>
+        <vz>-7112.784679</vz>
+      </ephemeris>
+      <ephemeris description="PACDB_GPS">
+        <time>2020-06-05T13:49:23</time>
+        <x>3972020.380018</x>
+        <y>-5641123.137236</y>
+        <z>-1901396.456115</z>
+        <vx>-2477.154001</vx>
+        <vy>643.403536</vy>
+        <vz>-7110.712461</vz>
+      </ephemeris>
+      <ephemeris description="PACDB_GPS">
+        <time>2020-06-05T13:49:24</time>
+        <x>3969541.171905</x>
+        <y>-5640476.445066</y>
+        <z>-1908506.098134</z>
+        <vx>-2481.360974</vx>
+        <vy>649.873844</vy>
+        <vz>-7108.631877</vz>
+      </ephemeris>
+      <ephemeris description="PACDB_GPS">
+        <time>2020-06-05T13:49:25</time>
+        <x>3967057.728467</x>
+        <y>-5639823.274590</y>
+        <z>-1915613.650018</z>
+        <vx>-2485.564613</vx>
+        <vy>656.343176</vy>
+        <vz>-7106.543454</vz>
+      </ephemeris>
+      <ephemeris description="PACDB_GPS">
+        <time>2020-06-05T13:49:26</time>
+        <x>3964570.048117</x>
+        <y>-5639163.643270</y>
+        <z>-1922719.119704</z>
+        <vx>-2489.764919</vx>
+        <vy>662.812088</vy>
+        <vz>-7104.447587</vz>
+      </ephemeris>
+      <ephemeris description="PACDB_GPS">
+        <time>2020-06-05T13:49:27</time>
+        <x>3962078.077724</x>
+        <y>-5638497.614999</y>
+        <z>-1929822.564931</z>
+        <vx>-2493.962412</vx>
+        <vy>669.281483</vy>
+        <vz>-7102.345589</vz>
+      </ephemeris>
+      <ephemeris description="PACDB_GPS">
+        <time>2020-06-05T13:49:28</time>
+        <x>3959581.902465</x>
+        <y>-5637825.129074</y>
+        <z>-1936923.909799</z>
+        <vx>-2498.156216</vx>
+        <vy>675.751331</vy>
+        <vz>-7100.236317</vz>
+      </ephemeris>
+      <ephemeris description="PACDB_GPS">
+        <time>2020-06-05T13:49:29</time>
+        <x>3957081.559809</x>
+        <y>-5637146.167773</y>
+        <z>-1944023.124509</z>
+        <vx>-2502.345938</vx>
+        <vy>682.221928</vy>
+        <vz>-7098.119474</vz>
+      </ephemeris>
+      <ephemeris description="PACDB_GPS">
+        <time>2020-06-05T13:49:30</time>
+        <x>3954577.120717</x>
+        <y>-5636460.620842</y>
+        <z>-1951120.142337</z>
+        <vx>-2506.531126</vx>
+        <vy>688.695493</vy>
+        <vz>-7095.994931</vz>
+      </ephemeris>
+    </ephemerides>
+    <interpolation>BC</interpolation>
+    <datumName>WGS84</datumName>
+    <semiMajorAxis>6378137.000000</semiMajorAxis>
+    <flattening>0.003353</flattening>
+    <xShiftToWGS84>0.000000</xShiftToWGS84>
+    <yShiftToWGS84>0.000000</yShiftToWGS84>
+    <zShiftToWGS84>0.000000</zShiftToWGS84>
+    <projectionName>UTM</projectionName>
+    <originLongitude>-57</originLongitude>
+    <originLatitude>0</originLatitude>
+    <scaleFactor>0.999600</scaleFactor>
+    <falseEasting>500000.000000</falseEasting>
+    <falseNorthing>10000000.000000</falseNorthing>
+    <loadedCalibration>/sge/install/x86_64/etc/../var/technical_database/CBERS-4/MUX/20150101000000000.cal</loadedCalibration>
+    <loadedCpf>/sge/install/x86_64/etc/../var/technical_database/CBERS-4/MUX/20160109000000000.cpf</loadedCpf>
+    <transformation name="affine">
+      <Rotation>-0.000302</Rotation>
+      <Non-orthogonalityFactor>-0.000580</Non-orthogonalityFactor>
+      <ScaleFactorE>1.000883</ScaleFactorE>
+      <ScaleFactorN>1.000144</ScaleFactorN>
+      <TranslationE>-92.034212</TranslationE>
+      <TranslationN>124.239442</TranslationN>
+    </transformation>
+    <band5>/sge/TIFF/CBERS4/2020_06/CBERS_4_MUX_DRD_2020_06_05.13_43_00_CB11/165_117_0/4_BC_UTM_WGS84/CBERS_4_MUX_20200605_165_117_L4_BAND5.tif</band5>
+    <integrationTime>
+      <band name="5">148600</band>
+      <band name="6">148600</band>
+      <band name="7">148600</band>
+      <band name="8">148600</band>
+    </integrationTime>
+    <absoluteCalibrationCoefficient>
+      <band name="5">1.51123</band>
+      <band name="6">1.5762</band>
+      <band name="7">1.55192</band>
+      <band name="8">1.1761</band>
+    </absoluteCalibrationCoefficient>
+    <timeCodeSource>ON_BOARD_TIME</timeCodeSource>
+  </image>
+
+</prdf>
