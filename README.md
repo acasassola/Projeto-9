@@ -28,7 +28,7 @@ _______________________________
    Os pacotes utilizados para a execução estão listados abaixo. As versões de alguns pacotes que estão especificadas abaixo garantiram o funcionamento sem erros de execução.
 
       gdal = 3.0.4
-      shapely = 1.0.7
+      shapely = 1.7.0
       fiona = 1.8.11
       os
       xml
@@ -66,13 +66,17 @@ _______________________________
    ### 3.2 Processamento
    O processamento dos dados é basicamente separado em 2 módulos principais:
    - **Geração da máscara de nuvens:** A imagem selecionada é aberta e a máscara de nuvens é criada com base no limiar. Há uma apresentação da imagem selecionada e da máscara de nuvem para que o usuário verifique se o limiar selecionado é suficiente para a detecção de nuvens. Após o processamento, é gerado um arquivo **.tif** de saída e o mesmo é salvo no diretório **produtos**.
-   - **Geração da máscara de sombra:** A máscara de nuvens é aberta e vetorizada para um arquivo **.shp**. Após isso, o algoritmo ....................... A SER FEITO ....................... Todos os arquivos temporários são criados e gereciados automaticamente na pasta **produtos**. Após o processamento, a máscara é gerada no formato vetorial **(.shp)** e no formato de raster **(.tif)** e esses arquivos são salvos no diretório **produtos**.
+   - **Geração da máscara de sombra:** A máscara de nuvens é aberta e vetorizada para um arquivo **.shp**. Os cálculos do ângulo da sombra e o deslocamento são feitos, levando em consideração o ângulo de incidência solar e o ângulo de visada. Após alguns tratamentos, os polígonos de nuvem são deslocados e é realizada a subtração de desse resultado pela máscara de nuvens, resultando em apenas os polígonos com possíveis sombra, como é apresentado no GIF a seguir. Todos os arquivos temporários, bem como os produtos, são salvos na pasta **produtos**. Após o processamento, a máscara de sombra é salva no formato vetorial **(.shp)** e também rasterizada para um raster **(.tif)**.
+
+<div align="center">
+   <img src="apresentacao/subtracao_sombra.gif" alt="diagrama" width="60%" height="20%"/></center>
+</div>
       
    ### 3.3 Resultados
    Abaixo é apresentada uma utilização das máscaras geradas. Em um software SIG, foram plotadas a imagem e as máscaras:
 
 <div align="center">
-   <img src="apresentacao/resultado_img.jpg" alt="diagrama" width="50%" height="20%"/></center>
+   <img src="apresentacao/resultado_img.jpg" alt="diagrama" width="60%" height="40%"/></center>
 </div>
    
 ## 4. Trabalhos Futuros:
